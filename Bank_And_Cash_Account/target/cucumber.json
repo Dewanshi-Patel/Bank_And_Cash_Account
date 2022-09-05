@@ -1,0 +1,331 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 963753700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Techfios login page",
+            "match": {
+              "location": "BCLoginStepDefinition.user_is_on_techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3662366600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BCLoginStepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "1 User should be able to login with valid credentials",
+        "description": "",
+        "id": "techfios-bank-and-cash-new-account-functionality;1-user-should-be-able-to-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3140892900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "BCLoginStepDefinition.user_enters_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3078574300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "BCLoginStepDefinition.user_enters_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5211332600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks signin button",
+            "match": {
+              "location": "BCLoginStepDefinition.user_clicks_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19250900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should land on dashboard page",
+            "match": {
+              "location": "BCLoginStepDefinition.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3066300600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on bankCash button",
+            "match": {
+              "location": "BCLoginStepDefinition.user_clicks_on_bankCash_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 468519900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks newAccount",
+            "match": {
+              "location": "BCLoginStepDefinition.user_clicks_newAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109762900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters accountTitle as \"Checking\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Checking",
+                  "offset": 29
+                }
+              ],
+              "location": "BCLoginStepDefinition.user_enters_accountTitle_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90850900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters description as \"DewanshiPatel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DewanshiPatel",
+                  "offset": 28
+                }
+              ],
+              "location": "BCLoginStepDefinition.user_enters_description_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91839200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters initialBalance as \"$32,253\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$32,253",
+                  "offset": 31
+                }
+              ],
+              "location": "BCLoginStepDefinition.user_enters_initialBalance_as(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91025900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters accountNumber as \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 30
+                }
+              ],
+              "location": "BCLoginStepDefinition.user_enters_accountNumber_as(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97499200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters contactPerson as \"DewanshiPatel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DewanshiPatel",
+                  "offset": 30
+                }
+              ],
+              "location": "BCLoginStepDefinition.user_enters_contactPerson_as(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74403600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters phoneNumber as \"884-569-7894\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "884-569-7894",
+                  "offset": 28
+                }
+              ],
+              "location": "BCLoginStepDefinition.user_enters_phoneNumber_as(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 100635000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters internetBankingUrl as \"www.google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "www.google.com",
+                  "offset": 35
+                }
+              ],
+              "location": "BCLoginStepDefinition.user_enters_internetBankingUrl_as(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 689395200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "BCLoginStepDefinition.user_clicks_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3320600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should be able to see validate new account created",
+            "match": {
+              "location": "BCLoginStepDefinition.user_should_be_able_to_see_validate_new_account_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@BCScenario1"
+          },
+          {
+            "line": 1,
+            "name": "@Bank\u0026CashFeature"
+          }
+        ]
+      }
+    ],
+    "name": "TechFios bank and cash New Account Functionality",
+    "description": "",
+    "id": "techfios-bank-and-cash-new-account-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Bank\u0026CashLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Bank\u0026CashFeature"
+      }
+    ]
+  }
+]
